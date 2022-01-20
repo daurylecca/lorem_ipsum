@@ -5,20 +5,19 @@ Para contribuir, necesitará realizar un Fork y un clon local de este proyecto.
 
 Siga los pasos a continuación para prepararse.
 
-### 1 - Fork a Source Repository
+### 1 - Realiza Fork al Repositorio Origen
 
-Fork the source repository:
    1. Visita https://github.com/cctovar/lorem_ipsum.
-   2. Click en el botón "fork" y elija su cuenta personal de GitHub si se le solicita.
+   2. Click en el botón "fork" y elija su cuenta personal de GitHub si le solicita.
 
 ---
 
-### 2 - Clone your Fork
+### 2 - Clona tu Fork
 
 Clona este proyecto en tu máquina:
 ```sh
 $ cd ~/my/parent/directory
-$ git clone https://github.com/cctovar/lorem_ipsum.git
+$ git clone https://github.com/tu-usuario/lorem_ipsum.git
 # clona el repositorio
 
 $ cd repo-name
@@ -31,7 +30,7 @@ $ git remote
 origin
 
 $ git remote -v
-origin https://github.com/user-source/repository-name.git (fetch)
+origin https://github.com/username-source/repository-name.git (fetch)
 origin https://github.com/username-source/repository-name.git (push)
 ```
 
@@ -49,3 +48,8 @@ origin https://github.com/username-source/repository-name.git (push)
 4.  Crear plantilla de PR (subirlo a la ruta “.github/PULL_REQUEST_TEMPLATE/“ )
 5.  Crear el PR y usar la plantilla creada. 
 6.  Agregar un Review. 
+
+### Tener en cuenta:  
+* En la rama tiene que haber como mínimo dos commits. 
+* La plantilla del PR debe tener la información necesaria. 
+* El PR no se debe combinar con la rama master, se debe dejar abierto.  
